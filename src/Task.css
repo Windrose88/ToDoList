@@ -1,0 +1,86 @@
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border: 1px solid darkgrey;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  background-color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  color: darkslateblue;
+}
+
+label {
+  display: inline-flex;
+  align-items: center;
+  word-break: break-word;
+  width: 540px;
+  text-align: left;
+}
+
+input {
+  margin: 0.45rem 1rem 0rem 0rem;
+}
+
+.editInput {
+  margin: 0;
+}
+
+.li-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove-btn {
+  background: tomato;
+  border-radius: 25%;
+  color: #fff;
+  border: 1px solid darkslateblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  background: crimson;
+}
+
+.remove-btn:active {
+  background: darkred;
+}
+
+.edit-btn {
+  background: deepskyblue;
+  border-radius: 15%;
+  color: white;
+  border: 1px solid darkslateblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background: steelblue;
+}
+
+.edit-btn:active {
+  background: darkslateblue;
+}
+
+.checked {
+  background-color: lightblue;
+}
+
+.checked label span {
+  text-decoration: line-through;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.addTaskInput {
+  margin-right: 0.5rem;
+  border: none;
+  box-shadow: 2px 2px 5px black;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkslateblue;
+}
+
+.add-btn {
+  background: cornflowerblue;
+  border-radius: 15%;
+  color: aliceblue;
+  border: 1px solid white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: royalblue;
+}
+
+.add-btn:active {
+  background: darkblue;
+}
